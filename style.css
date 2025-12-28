@@ -65,6 +65,27 @@ p {
 footer {
   text-align: center;
   padding: 2rem;
+
+.top-links {
+  margin-top: 16px;
+}
+
+.btn {
+  display: inline-block;
+  margin-right: 12px;
+  padding: 10px 16px;
+  background-color: #1f2933;
+  color: #e5e7eb;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #374151;
+}
+
   font-size: 0.85rem;
   color: #8a8a8a;
 }
